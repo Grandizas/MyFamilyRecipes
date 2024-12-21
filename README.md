@@ -16,20 +16,25 @@ MyFamilyRecipes is a web application designed to bring families and close friend
 ## Tech Stack
 
 ### Front-End
+
 - **Nuxt.js**: For building a performant and SEO-friendly front-end.
 
 ### Back-End
+
 - **Node.js with Express.js**: To handle server-side logic and API endpoints.
 
 ### Database
+
 - **MongoDB**: A NoSQL database to manage recipes, user data, and relationships.
 
 ### Authentication
+
 - **Auth0**: To enable secure user authentication.
 
 ## Goals
 
 The main goals of this project are:
+
 - **Learning**: Enhance skills in full-stack web development with modern tools and frameworks.
 - **Sharing**: Build a meaningful application that can bring people closer through shared cooking experiences.
 
@@ -38,12 +43,14 @@ The main goals of this project are:
 Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/MyFamilyRecipes.git
    cd MyFamilyRecipes
    ```
 
 2. **Install dependencies**:
+
    ```bash
    # Install front-end dependencies
    cd frontend
@@ -55,10 +62,12 @@ Follow these steps to set up the project locally:
    ```
 
 3. **Set up environment variables**:
+
    - Create a `.env` file in both the `frontend` and `backend` directories.
    - Add the necessary keys (e.g., MongoDB URI, Auth0 client ID/secret).
 
 4. **Run the development servers**:
+
    ```bash
    # Start the front-end
    cd frontend
@@ -85,6 +94,7 @@ Follow these steps to set up the project locally:
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch (`feature/my-feature`).
 3. Commit your changes.
@@ -100,5 +110,5 @@ This project is licensed under the [MIT License](LICENSE).
 - Built with passion for learning and sharing.
 
 ---
-Feel free to reach out if you have any questions or suggestions!
 
+Feel free to reach out if you have any questions or suggestions!
