@@ -1,0 +1,44 @@
+@use '../abstracts/_variables.scss' as *;
+@use '../abstracts/_colors.scss' as *;
+
+.application-header {
+  height: 6rem;
+  display: flex;
+  padding: spacing(2);
+  box-shadow: $box-shadow-box;
+
+  .application-header__left a {
+    display: flex;
+    color: $color-text;
+    text-decoration: none;
+
+    .logo-text {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    span {
+      display: flex;
+      font-family: $font-italic;
+
+      &.logo-title {
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        align-items: flex-end;
+      }
+      &.logo-subtitle {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        align-items: flex-start;
+      }
+    }
+  }
+
+  .application-header__left,
+  .application-header__left .logo-text,
+  .application-header__left .application-header__logo {
+    height: 100%;
+  }
+}
