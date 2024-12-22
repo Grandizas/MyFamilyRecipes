@@ -3,6 +3,11 @@ html {
 }
 
 body {
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
+}
+
+* {
+  box-sizing: inherit;
 }

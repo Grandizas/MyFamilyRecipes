@@ -7,13 +7,18 @@
           src="~/assets/images/logo/iconOnly.png"
           alt="Logo. In the logo can be seen spoon, salad and a scoop with water in a fun animated design"
         />
-
         <div class="logo-text">
           <span class="logo-title">MyFamilyRecipes</span>
           <span class="logo-subtitle">Collect & Share</span>
         </div>
       </nuxt-link>
     </div>
-    <div class="application-header__right"></div>
+    <div class="application-header__right">
+      <nav>
+        <nuxt-link to="/about">{{ $t('header.aboutUs') }}</nuxt-link>
+      </nav>
+    </div>
   </header>
 </template>
+
+<script setup lang="ts"></script>
